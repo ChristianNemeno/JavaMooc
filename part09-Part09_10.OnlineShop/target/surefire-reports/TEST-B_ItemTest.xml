@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="B_ItemTest" time="0.001" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Java\mooc-java-programming-ii\part09-Part09_10.OnlineShop\target\test-classes;C:\Java\mooc-java-programming-ii\part09-Part09_10.OnlineShop\target\classes;C:\Users\chris\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\chris\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\chris\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Manila"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\chris\AppData\Local\Temp\surefire17469821520755518059\surefirebooter548271995433785379.jar C:\Users\chris\AppData\Local\Temp\surefire17469821520755518059 2024-08-09T16-25-04_258-jvmRun1 surefire2880341194194612276tmp surefire_018440986724680093596tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Java\mooc-java-programming-ii\part09-Part09_10.OnlineShop\target\test-classes;C:\Java\mooc-java-programming-ii\part09-Part09_10.OnlineShop\target\classes;C:\Users\chris\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\chris\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\chris\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\chris"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Java\mooc-java-programming-ii\part09-Part09_10.OnlineShop"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\chris\AppData\Local\Temp\surefire17469821520755518059\surefirebooter548271995433785379.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+9"/>
+    <property name="user.name" value="chris"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.23+9"/>
+    <property name="localRepository" value="C:\Users\chris\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\chris\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="C:\Java\mooc-java-programming-ii\part09-Part09_10.OnlineShop"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\chris\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\chris\AppData\Local\Programs\Python\Python312\;C:\Users\chris\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.1\bin;;C:\msys64\ucrt64\bin;C:\Users\chris\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.23+9"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="priceIsCalculatedCorrectly" classname="B_ItemTest" time="0"/>
+  <testcase name="toStringImplemented" classname="B_ItemTest" time="0"/>
+  <testcase name="constructorExits" classname="B_ItemTest" time="0"/>
+  <testcase name="methodIncreaseQuantityExits" classname="B_ItemTest" time="0"/>
+  <testcase name="quantityIncreases" classname="B_ItemTest" time="0"/>
+  <testcase name="toStringWorksCorrectly2" classname="B_ItemTest" time="0"/>
+  <testcase name="toStringWorksCorrectly" classname="B_ItemTest" time="0"/>
+  <testcase name="classIsPublic" classname="B_ItemTest" time="0"/>
+  <testcase name="priceMethod" classname="B_ItemTest" time="0"/>
+  <testcase name="noExtraVariables" classname="B_ItemTest" time="0"/>
+</testsuite>

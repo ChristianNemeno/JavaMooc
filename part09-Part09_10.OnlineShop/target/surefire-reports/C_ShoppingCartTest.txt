@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: C_ShoppingCartTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! - in C_ShoppingCartTest
+shoppingWorks(C_ShoppingCartTest)  Time elapsed: 0.086 s  <<< FAILURE!
+java.lang.AssertionError: 
+the store was created just like in the example and the customers input was coffee<enter>bread<enter>water<enter><enter>
+ encountered exception java.lang.AssertionError: Add a public constructor with no parameter for the Store class
+make sure you copypasted the code from the exercise description into the Store class
+	at C_ShoppingCartTest.shoppingWorks(C_ShoppingCartTest.java:327)
+
+hasMapOrList(C_ShoppingCartTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+Store the ShoppingCart's items either in a instance variable Map<String, Item> items;
+or a instance variable List<Item> items; so change private java.util.HashMap cart to the right type
+	at C_ShoppingCartTest.hasMapOrList(C_ShoppingCartTest.java:44)
+
+storeClassExists(C_ShoppingCartTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Create the class Store in your program, and copypaste the code templete from the exercise description there
+	at C_ShoppingCartTest.storeClassExists(C_ShoppingCartTest.java:300)
+

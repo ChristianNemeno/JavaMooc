@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: A_WarehouseTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! - in A_WarehouseTest
+mapImplemented(A_WarehouseTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+Store theWarehouse's product prices in instance variable Map<String, Integer> prices; 
+i.e, change the field java.util.HashMap productPrice to the right type
+	at A_WarehouseTest.mapImplemented(A_WarehouseTest.java:53)
+
+mapExists(A_WarehouseTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+The Warehouse's product prices must be stored in the instance variable: Map<String, Integer> quantities; 
+so change java.util.HashMap productPrice to the right type
+	at A_WarehouseTest.mapExists(A_WarehouseTest.java:179)
+
+noExtraVariables(A_WarehouseTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: All the instance variable for the class should be private, but in the Warehouse class found: HashMap productPrice
+	at A_WarehouseTest.cleanlinessCheck(A_WarehouseTest.java:466)
+	at A_WarehouseTest.noExtraVariables(A_WarehouseTest.java:397)
+
