@@ -3,12 +3,13 @@ public class Main {
 
     public static void main(String[] args) {
         // write your test code here
-        Teacher t = new Teacher("Joel Kaasinen","Haagantie 123", 980);
-        System.out.print(t);
+        Person p = new Person("ada", "grovestrre");
+        
+        System.out.println(p);
     }
-    public static void printPersons(ArrayList<Person> persons){
-        for(Person x : persons){
-            System.out.println(x);
-        }
-    }
+//    public static void printPersons(ArrayList<Person> persons){
+//        for(Person x : persons){
+//            System.out.println(x);
+//        }
+//    }
 }

@@ -8,7 +8,10 @@
  *
  * @author chris
  */
-//public class Student extends Person {
-//
-//    
-//}
+
+
+import java.util.ArrayList;
+
+public class E {
+    private ArrayList<C> Cs;
+}

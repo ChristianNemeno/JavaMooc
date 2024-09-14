@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package mooc.ui;
 
 /**
  *
  * @author chris
  */
-//public class Student extends Person {
-//
-//    
-//}
+public class TextInterface implements UserInterface{
+    
+    
+   public void update(){
+        System.out.println("Updating UI");
+    }
+}

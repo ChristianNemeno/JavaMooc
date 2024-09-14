@@ -8,7 +8,10 @@
  *
  * @author chris
  */
-//public class Student extends Person {
-//
-//    
-//}
+public interface Saveable {
+    
+    public void save();
+    
+    public void delete();
+    public void load(String address);
+}

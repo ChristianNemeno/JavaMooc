@@ -8,7 +8,6 @@
  *
  * @author chris
  */
-//public class Student extends Person {
-//
-//    
-//}
+public interface IC {
+    
+}

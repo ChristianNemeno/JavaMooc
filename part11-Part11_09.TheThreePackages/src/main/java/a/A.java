@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package a;
 
 /**
  *
  * @author chris
  */
-//public class Student extends Person {
-//
-//    
-//}
+public class A {
+    
+}
